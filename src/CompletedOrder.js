@@ -121,7 +121,7 @@ export default function CompletedOrder() {
                             </tr>
                             <tr>
                             <td data-label="Name">IPT tax (included in charge)</td>
-                            <td data-label="Age">{order.total_insurance_charge}</td>
+                            <td data-label="Age">{order.ipt_included_in_charge}</td>
                             </tr>
                         </tbody>
                     </table>
